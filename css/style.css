@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Lilita One", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
 img {
   max-width: 100%;
 }
@@ -26,6 +34,8 @@ a {
 .container {
   max-width: 1080px;
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
@@ -71,7 +81,121 @@ header div li {
 }
 
 /* MAIN */
+main > section {
+  padding: 3rem 0;
+  background-color: white;
+}
 
+main > section:nth-of-type(even) {
+  padding: 3rem 0;
+  background-color: hsl(243.7, 60.3%, 73.3%);
+}
+
+/* section application */
+.container-application {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 1rem;
+  background-color: hsl(207.6, 100%, 85.5%);
+  max-width: calc(100% / 3 - 20px);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.big-card {
+  max-width: calc((100% / 3 - 10px) * 2);
+  text-align: left;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.big-card-text {
+  max-width: 60%;
+  padding: 20px;
+}
+
+.card h3 {
+  color: hsl(208.7, 100%, 49.6%);
+  padding-bottom: 20px;
+}
+
+.card p {
+  padding-bottom: 20px;
+  color: hsl(207.7, 17.2%, 44.5%);
+}
+
+.big-card-img {
+  text-align: center;
+  max-width: 40%;
+
+  align-self: flex-end;
+}
+
+.big-card-text button {
+  color: white;
+  background-color: hsl(208.7, 100%, 49.6%);
+  padding: 5px 25px;
+}
+
+.big-card-img img {
+  width: 80%;
+  display: inline-block;
+}
+
+.fa-apple {
+  color: white;
+}
+
+.i-card {
+  color: hsl(208.7, 100%, 49.6%);
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+/* section planning*/
+
+.planning-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 900px;
+}
+
+.strategic-planning {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+  color: white;
+}
+
+.strategic-planning h3 {
+  padding: 100px 0 40px 0;
+  font-size: 30px;
+}
+
+.planning-card {
+  background-color: white;
+  align-self: flex-end;
+}
+
+.planning-img {
+  width: 100px;
+}
+
+.planning-card i {
+  padding: 10px;
+  background-color: hsl(243.7, 60.3%, 73.3%);
+  border-radius: 50%;
+}
 /* FOOTER */
 
 /* TABLET MEDIA */
