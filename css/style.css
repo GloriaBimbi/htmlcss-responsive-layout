@@ -383,6 +383,7 @@ main > section:nth-of-type(even) {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.512);
 }
 
 .get-started button{
@@ -393,7 +394,26 @@ main > section:nth-of-type(even) {
   margin-bottom: 30px;
 }
 
+.get-started span{
+  color: rgba(255, 255, 255, 0.512);
+}
+
 /* FOOTER */
+
+footer{
+  background-color: hsl(0, 0%, 20%);
+  color: rgba(255, 255, 255, 0.512);
+  text-align: center;
+  padding: 30px 300px;
+}
+
+footer p{
+  margin-bottom: 30px;
+}
+
+footer a{
+  color: hsl(243.7, 60.3%, 73.3%);
+}
 
 /* TABLET MEDIA */
 @media screen and (max-width: 768px) {
@@ -409,6 +429,12 @@ main > section:nth-of-type(even) {
   .about-us > .container {
     width: 100vw;
     padding: 0 30px;
+  }
+
+  footer > .container{
+   margin-right: auto;
+   margin-left: auto;
+   width: 100vw;
   }
 
   .benefits .benefits-cards > .card {
