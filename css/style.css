@@ -358,27 +358,27 @@ main > section:nth-of-type(even) {
 
 /* get started section */
 
-.get-started{
+.get-started {
   color: white;
   text-align: center;
 }
 
-.get-started-title{
+.get-started-title {
   color: rgba(255, 255, 255, 0.512);
 }
 
-.get-started h3{
+.get-started h3 {
   font-size: 30px;
   margin: 20px 0;
 }
 
-.get-started h2{
+.get-started h2 {
   font-size: 50px;
   margin-bottom: 20px;
   color: hsl(35.9, 85.1%, 68.4%);
 }
 
-.inner-container{
+.inner-container {
   width: 200px;
   margin-right: auto;
   margin-left: auto;
@@ -386,7 +386,7 @@ main > section:nth-of-type(even) {
   color: rgba(255, 255, 255, 0.512);
 }
 
-.get-started button{
+.get-started button {
   padding: 15px 35px;
   color: hsl(243.7, 60.3%, 73.3%);
   background-color: white;
@@ -394,24 +394,24 @@ main > section:nth-of-type(even) {
   margin-bottom: 30px;
 }
 
-.get-started span{
+.get-started span {
   color: rgba(255, 255, 255, 0.512);
 }
 
 /* FOOTER */
 
-footer{
+footer {
   background-color: hsl(0, 0%, 20%);
   color: rgba(255, 255, 255, 0.512);
   text-align: center;
   padding: 30px 300px;
 }
 
-footer p{
+footer p {
   margin-bottom: 30px;
 }
 
-footer a{
+footer a {
   color: hsl(243.7, 60.3%, 73.3%);
 }
 
@@ -431,10 +431,10 @@ footer a{
     padding: 0 30px;
   }
 
-  footer > .container{
-   margin-right: auto;
-   margin-left: auto;
-   width: 100vw;
+  footer > .container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100vw;
   }
 
   .benefits .benefits-cards > .card {
@@ -443,6 +443,7 @@ footer a{
 
   .about-us-help {
     padding: 20px 0;
+  }
 }
 
 /* MOBILE MEDIA */
@@ -459,5 +460,5 @@ footer a{
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    }
+  }
 }
